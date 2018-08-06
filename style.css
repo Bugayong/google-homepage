@@ -1,0 +1,171 @@
+body {
+  width: auto;
+}
+
+/* Header */
+
+.nav {
+  text-align: right; 
+}
+
+.nav a {
+  margin-right: 12px;
+  color: #222;
+  text-decoration: none; 
+}
+
+.nav a:hover {
+  text-decoration: underline;
+}
+
+li {
+  display: inline-block;
+  font-size: 15px;
+}
+
+button:focus {
+  outline: none;
+}
+
+.signin {
+  margin-right: 20px;
+  border: 1px solid #4285f4;
+  background: -webkit-linear-gradient(top,#4387fd,#4683ea);
+  border-radius: 2px;
+  color: #fff;
+  font-weight: bold; 
+  height: 30px;
+  padding-left: 14px; 
+  padding-right: 14px; 
+}
+
+.appslogo {
+  position: relative;
+  vertical-align: middle; 
+}
+
+/* Content */
+
+.content {
+  position: static;
+  width: auto;
+  text-align: center;
+}
+
+.google {
+  width: 300px;
+  height: 100px;
+  margin-top: 190px;
+  margin-bottom: 25px;
+}
+
+input {
+  width: 632px;
+  height: 34px;
+  background-color: transparent; 
+  border: 1px 1px 3px 1px;
+  border-radius: 3px;
+  padding-left: 5px;
+  font-size: 16px;
+  font-family: Arial, sans-serif;
+  overflow: auto;
+}
+
+input:focus {
+  outline: none;
+}
+
+.buttons {
+  margin-top: 30px;
+}
+
+.googlesearch:hover, .lucky:hover {
+  color: #3d3d3d;
+  border: 1px solid #C0C0C0;
+}
+
+.googlesearch, .lucky {
+  height: 35px;
+  border-radius: 2px; 
+  background-color: #f2f2f2;
+  border: 1px solid #f2f2f2;
+  font-weight: bold;
+  color: #757575;
+  padding: 0 16px;
+  font-family: Arial; 
+}
+
+.googlesearch {
+  margin-right: 2px;
+}
+
+.lucky {
+  margin-left: 2px;
+}
+
+.language {
+  margin-top: 30px;
+  font-size: 14px;
+}
+
+.language a {
+  padding-left: 10px;
+  text-decoration: none; 
+}
+
+.language a:hover {
+  text-decoration: underline;
+}
+
+/* Footer */
+
+.country {
+  width: 100%;
+  position: relative; 
+  background-color: #EEEEEE;
+  border-top: 1px solid #DFDFDF;
+  bottom: 0;
+  right: 0;
+  margin-top: 255px; 
+  visibility: hidden; 
+}
+
+#text {
+  float: left; 
+}
+
+.footer {
+  width: 100%;
+  position: absolute; 
+  bottom: 0;
+  left: 0;
+  background-color: #EEEEEE;
+  border-top: 1px solid #DFDFDF; 
+}
+
+.footerleft {
+  float: left;
+}
+
+.footer a:hover {
+  text-decoration: underline; 
+}
+
+.footerleft a {
+  margin-right: 12px;
+  color: #666;
+  text-decoration: none; 
+}
+
+.footerright {
+  float: right;
+  margin-right: 25px;
+}
+
+.footerright a {
+  margin-right: 12px;
+  color: #666;
+  text-decoration: none; 
+}
+
+
